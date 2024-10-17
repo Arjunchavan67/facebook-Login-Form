@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eef5f4;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    padding-top: 180px;
+    justify-content: space-between;
+   
+}
+
+.container .left,
+.container .right {
+    flex-basis: 48%;
+}
+
+.container .left {
+    padding-top: 45px;
+}
+
+.container .left .logo {
+    width: 290px;
+    margin: -25px;
+}
+
+.container .left h2 {
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+    margin-top: 15px;
+    font-weight: 400;
+    font-family: sans-serif;
+   
+}
+
+.container .right .form {
+    width: 400px;
+    padding: 15px 20px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container .right .form .form-group {
+    margin-bottom: 10px;
+}
+
+.container .right .form .form-group input {
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.container .right .form .form-group input:focus {
+    outline-color: #2577f9;
+}
+
+.container .right .form .login-btn {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+    background-color: #045eee;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: opacity .3s ease-in-out;
+}
+
+.container .right .form .login-btn:hover {
+    opacity: 0.9;
+}
+
+.container .right .form a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #0866ff;
+    text-align: center;
+    margin: 15px 0;
+    display: block;
+    font-family: sans-serif;
+    
+}
+
+.container .right .form a:hover {
+    text-decoration: underline;
+}
+
+.container .right .create {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container .right .create button {
+    background-color: #1d750b;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    height: 50px;
+    cursor: pointer;
+    padding: 0 13px;
+    border: none;
+   
+    transition: opacity .3s ease-in-out;
+}
+
+.container .right .create button:hover {
+    opacity: 0.9;
+}
